@@ -1,7 +1,9 @@
+import streamlit as st
+
 b = 5
 c = 8
 a = b + c
 
-print(a)
-print(b)
-print(c)
+st.write(a)
+st.write(b)
+st.write(c)
